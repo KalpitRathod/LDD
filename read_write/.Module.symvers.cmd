@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/ldd/read_write/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ubuntu/ldd/read_write/Module.symvers -T /home/ubuntu/ldd/read_write/modules.order -i Module.symvers -e 

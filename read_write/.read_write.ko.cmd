@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/ldd/read_write/read_write.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/ldd/read_write/read_write.ko /home/ubuntu/ldd/read_write/read_write.o /home/ubuntu/ldd/read_write/read_write.mod.o
