@@ -11,7 +11,7 @@ static int my_module_init_function (void) {
 }
 
 static void my_module_exit_function (void) {
-    printk("Good, Bye!\n");
+    printk("Good, Be!\n");
 }
 
 module_init(my_module_init_function);
