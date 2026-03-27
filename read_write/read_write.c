@@ -4,8 +4,15 @@ ubuntu@primary:~/ldd/read_write$ sudo rm /dev/hello0 //deleting the files
 
 unregister_chrdev(241, "cdev_kalpit"); manually unregistering entries
 
+ubuntu@primary:~/ldd/read_write$ grep kalpit /proc/devices
+
 ubuntu@primary:~/ldd/read_write$ sudo mknod /dev/hello0 c 241 0 //again adding 
 
+ubuntu@primary:~/ldd/read_write$ echo "Hello World" | sudo tee /dev/hello0
+Hello World
+ubuntu@primary:~/ldd/read_write$ sudo cat /dev/hello0
+Hello World
+ubuntu@primary:~/ldd/read_write$ gcc test.c
 */
 
 #include <linux/module.h>
