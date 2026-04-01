@@ -1,5 +1,5 @@
 # LDD
-Repo for device drivers I am working.
+Linux Device Drivers
 
 sudo dmesg -W //to keep watching logs -w is also there
 sudo dmesg | tail //last 5 lines
